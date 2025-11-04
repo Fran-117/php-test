@@ -7,7 +7,7 @@ $a=5;
 $b=5;
 
 $SUMA_RESULTADO = $Ope->sumar($a,$b);
-$RESTA_RESULTADO = $Ope->restar($aa,$b);
+$RESTA_RESULTADO = $Ope->restar($a,$b);
 $MULTIPLICACION_RESULTADO = $Ope->multiplicar($a,$b);
 $DIVISION_RESULTADO = $Ope->dividir($a,$b);
 
