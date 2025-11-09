@@ -1,6 +1,6 @@
 <?php
 
-require_once 'clase.php';
+require_once 'src/clase.php';
 $Ope= new Calculadora();
 
 $a=5;
