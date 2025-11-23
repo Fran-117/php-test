@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<<<<<<< HEAD
 <phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/10.3/phpunit.xsd"
          bootstrap="vendor/autoload.php"
          colors="true"
 >
+=======
+<phpunit xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://schema.phpunit.de/10.3/phpunit.xsd" bootstrap="tests/bootstrap.php" colors="true">
+>>>>>>> 8f62e8ef320658a1cddd5cecd20b7b350e7b5f2b
     <testsuites>
         <testsuite name="Test Suite">
             <directory suffix="Test.php">./tests</directory>
@@ -11,8 +15,15 @@
     </testsuites>
     <source>
         <include>
+<<<<<<< HEAD
             <directory suffix=".php">./app</directory>
             <directory suffix=".php">./src</directory>
         </include>
     </source>
 </phpunit>
+=======
+            <directory suffix=".php">./src</directory>
+        </include>
+    </source>
+</phpunit>
+>>>>>>> 8f62e8ef320658a1cddd5cecd20b7b350e7b5f2b
